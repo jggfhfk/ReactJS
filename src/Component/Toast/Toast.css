@@ -1,0 +1,62 @@
+.toastMain {
+    width: 100%;
+    height: 100vh;
+    /* background-color: greenyellow; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.toastContainer {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 30%;
+
+}
+
+.toast {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+    color: aliceblue;
+    animation: slide 1s;
+    margin: 2% 0;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.toast span {
+    cursor: pointer;
+} 
+
+.success {
+    background-color: green;
+}
+
+.alert {
+    background-color: purple;
+}
+
+.warning {
+    background-color: orange;
+}
+
+.danger {
+    background-attachment: red;
+}

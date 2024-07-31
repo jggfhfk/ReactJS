@@ -1,0 +1,20 @@
+.tasks {
+    width: 190%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.tasks span {
+    margin: 0 1%;
+    cursor: pointer;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.none {
+    text-decoration: none;
+}

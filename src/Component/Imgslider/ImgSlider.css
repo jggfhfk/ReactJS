@@ -1,0 +1,67 @@
+.containerSlider {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderMain {
+    width: 60%;
+    height: 50vh;
+    /* background-color: red; */
+    position: relative;
+    border: 1px solid;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.imgContainer .img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img1 {
+    background-color: green;
+}
+.img2 {
+    background-color: purple;
+}
+.img3 {
+    background-color: palevioletred;
+}
+.img4 {
+    background-color: blueviolet;
+}
+.img5 {
+    background-color: orangered;
+}
+
+.leftCtrl , .rightCtrl{
+    /* color: white; */
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 22vh;
+    font-size: 30px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.leftCtrl {
+    left: 3%;
+    color: white;
+}
+
+.rightCtrl {
+    right: 3%;
+    color: white;
+}

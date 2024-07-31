@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainS {
+    width: 100%;
+    height: 100vh;    
+}
+
+.stepMain {
+    margin: 4%;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    /* background-color: green; */
+    gap: 5%;
+    padding: 1%;
+    position: relative;
+    transition: all 0.5s linear;
+}
+
+.stepNum {
+    width: 20%;
+    /* background-color: red; */
+    height: auto;
+    aspect-ratio: 1;
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.5s linear;
+}
+
+.vLine {
+    width: 3px;
+    height: 152%;
+    position: absolute;
+    /* border: 2px solid rgb(174, 174, 174); */
+    background-color: rgb(174, 174, 174);
+    top: 100%;
+    left: 50%;
+    transition: all 0.5s linear;
+}
+
+.active {
+    background-color: purple;
+    color: white;
+    transition: all 0.5s linear;
+}
+
+.stepVal {
+    color: purple;
+    font-weight: 400;
+    transition: all 0.5s linear;
+}

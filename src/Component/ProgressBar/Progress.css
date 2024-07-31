@@ -1,0 +1,17 @@
+.container, .progress {
+    width: 30%;
+    height: 3vmax;
+    border: solid;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    background-color: rgb(35, 231, 4);
+    border: none;
+    width: 100%;
+    position: absolute;
+    /* left: -100%; */
+    border-radius: 0;
+}

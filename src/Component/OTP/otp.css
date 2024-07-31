@@ -1,0 +1,11 @@
+.otp {
+    width: 2rem;
+    height: 2rem;
+    margin: 2% 5%;
+}
+
+.otp_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
